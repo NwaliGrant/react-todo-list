@@ -1,0 +1,45 @@
+.todoform { 
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    flex-wrap: wrap; /* allows stacking on small screens */
+    
+}
+
+.modernInput { 
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    
+}
+
+.modernInput:focus { 
+    border-color: #007BFF;
+    outline: none;
+}
+
+.modernbtn { 
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modernbtn:hover { 
+    background-color: #0056b3;
+}

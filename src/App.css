@@ -1,0 +1,50 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; 
+}
+
+body { 
+    font-size: clamp(14px, 2vw, 18px);
+}
+
+/* footer message */
+
+.footer {
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  border-top: 1px solid #eee;
+}
+
+.footer .author {
+  font-weight: bold;
+  color: #4CAF50; /* nice green */
+}
+
+.footer .heart {
+  display: inline-block;
+  color: red;
+  animation: pulse 1.2s infinite;
+}
+
+.footerLink {
+  color: #007bff; /* blue link */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footerLink:hover {
+  color: #0056b3; /* darker blue */
+  transform: scale(1.05);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.3); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
