@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import TodoItem from "./TodoItem";  
-import Form from "./Form";
+import TodoItem from "./TodoItem.jsx";  
+import Form from "./Form.jsx";
 import styles from "./Todo.module.css";
 
 export default function Todo() { 
